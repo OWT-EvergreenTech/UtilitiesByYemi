@@ -65,19 +65,23 @@ body{ background-image: url(UTILITIES\ BY\ YEMI.png);
     .header{text-align: center;}
         h4 {margin-top: -5px;}
     
-    
-    
-    footer {
+    #creator{ text-align: center;}
+.footer-links{
+  padding-bottom: 0; display: flex;
+  text-align:center;
+}
+
+footer {
         text-align: center;
+        padding: 0 auto;
     }
-    
-    .footer-links {
-        display: inline-block;
+ .footer-links {
+        display: block;
     }
     
     #creator {
-        color: var(--color-light-grey);
-        text-shadow: 0 4px 3px rgba(27, 26, 26, 0.966);
+        color: green;
+        text-shadow: 0 4px 3px rgba(8, 211, 52, 0.966);
         margin: 2rem 0 0.5rem 0;px
         font-size: 0.875rem;
     }
@@ -86,15 +90,17 @@ body{ background-image: url(UTILITIES\ BY\ YEMI.png);
         padding: 0.5rem;
         margin: 0.5rem 0 1.5rem;
     }
-    a {
-        color: var(--color-light-grey);
+    .footer-links{
+        color: rgb(58, 58, 229);
         text-decoration: none;
         text-shadow: 0 4px 3px rgba(221, 142, 39, 0.966);
     }
     
-    a:hover {
-        color: var(--color-pearl-white);
+    .footer-links a:hover {
+        color: rgb(38, 129, 232);
     }
+    
+  
     .submit{display: flexbox;
     justify-content: center;
     flex-wrap: wrap;
