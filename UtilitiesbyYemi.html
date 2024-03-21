@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<htmln>
+    <head lang="en">
+        <title>Utilities By Yemi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Yemistyles.css">
+
+    </head>
+    <body>
+        <div class="header">
+            <img class="logo" src="uby.png" alt="UtilitiesbyYemi's logo">
+            <h4>Customers' Items Request Form</h4>
+        </div>
+        <div class="form">
+            <form class="uby-form">
+                <div class="name">
+                <label for="name">Name: </label><input id="name" class="name" type="text" required placeholder="Enter your name" title="Please enter your name" minlength="3">
+                </div>    
+                <div class="email">
+                    <label for="email">Email: </label> <input id="email" class="email" type="email" placeholder="Enter your email(optional)">   
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone-Numner: </label> <input id="phone" class="phone" type="text" placeholder="Enter your Phone-Number" pattern="[0-9]{11}" required title="Please enter a 11-digit Phone-Number">   
+                </div>
+                
+                   <fieldset class="checkbox">
+                      <legend for="checkbox">What would you like to get from us?</legend>  
+                      <div class="checkbox">
+                    <div for="checkbox1"><label for="checkbox1">Perfume</label>
+                    <input type="checkbox" id="checkbox" name="checkbox1" value="Perfume">
+                    </div>
+
+                    <div for="checkbox2"><label for="checkbox2">Kitchen Utensils</label>
+                        <input type="checkbox" id="checkbox" name="checkbox2" value="Kitchen-Utensils">
+                    </div>
+
+                    <div for="checkbox3"><label for="checkbox3">Fashion-Accessories</label>
+                        <input type="checkbox" id="checkbox" name="checkbox3" value="Fashion-Accessories">
+                    </div>
+
+                    <div for="checkbox4"><label for="checkbox4">Household Items</label>
+                        <input type="checkbox" id="checkbox" name="checkbox4" value="Household-Items">
+                    </div>
+
+                    <div for="checkbox5"><label for="checkbox5">Others</label>
+                        <input type="checkbox" id="checkbox" name="checkbox5" value="Others">
+                    </div>
+                    <div class="specific">
+                    <textarea name="specific" placeholder=" Be more Specific" rows="5" cols="15"></textarea required>
+                    </div>
+                    </div>
+                   </fieldset>
+                   <div class="budget">
+                    <label for="budget">Whats is your budget? </label> <input id="budget" class="budget" type="number" placeholder="Enter your budget?" min="1000" required>   
+                </div>
+                <div class="location">
+                    <legend for="location" class="location"> Where is your Location? </legend>
+                    
+                    <label for="Osogbo">Osogbo</label>
+                    <input name="location" id="Osogbo" type="radio" checked>
+                    
+                    <label for="Outside-Osogbo">Outside Osogbo(within Nigeria)</label>
+                    <input name="location" id="Outside-Osogbo" type="radio"> 
+
+                    <label for="Outside-Nigeria">Outside  Nigeria</label>
+                    <input name="location" id="Outside-Nigeria" type="radio">
+
+                </div>
+                <div class="referral">
+                    <label for="referral">Where do you hear about us?</label>
+                    <select id="referral">
+                        <option value=" ">Select an Option</option>
+                        <option value="option1">Facebook</option>
+                        <option value="option2">Instagram</option>
+                        <option value="option3">WhatsApp</option>
+                        <option value="friend">Freind or Family</option>
+                    </select>
+                </div>
+                <label for="comments">Comment Additional:</label>
+                <textarea id="comments" name="comments" placeholder="Comments here...."></textarea>
+
+               <div class="submit"> <button type="submit" class="submit">Submit</button> </div>
+
+        </form>
+        </div>
+        <footer>
+			<div id="creator">Created by OWT-EvergreenTech</div>
+			<div class="footer-links">
+				<a href="https://github.com/OWT-EvergreenTech" target="_blank">
+					<p class="sr-only">OWT-EvergreenTech github.com profile</p>
+					<i class="fa fa-github fa-2x" aria-hidden="true"></i
+				></a>
+				<a href="https://twitter.com/lordlekside" target="_blank">
+					<p class="sr-only">OWT-EvergreenTech twitter.com profile</p>
+					<i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+				></a>
+				
+			</div>
+		</footer>
+    </body>
+
+</html>
